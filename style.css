@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+p{
+    opacity: 0.7;
+}
+main{
+    text-align: center;
+    border: 1px solid #fff;
+    background: #fff;
+    width: 452px;
+}
+
+/* media query styling here */
+@media (max-width: 375px){
+    body{
+        background: url(./images/pattern-background-mobile.svg);
+    }
+}

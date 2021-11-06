@@ -34,10 +34,6 @@ main {
   border-radius: 10px;
 }
 
-#pricing-section {
-  padding: 10px 25px;
-}
-
 figure img {
   object-fit: cover;
   height: auto;
@@ -46,11 +42,22 @@ figure img {
   border-top-right-radius: 10px;
 }
 
+#pricing-section {
+  padding: 30px 25px;
+  line-height: 1.45;
+}
+
+#pricing-section p.info{
+  margin: .8em 0;
+  font-size: 16px;
+  
+}
+
 .plan-box {
   background-color: hsl(225, 100%, 98%);
   border-radius: 12px;
   display: flex;
-  padding: 20px;
+  padding: 15px 20px;
   align-items: center;
   justify-content: space-between;
 }
@@ -78,13 +85,13 @@ figure img {
 
 .plan-box a {
   font-weight: 700;
-  color: hsl(223, 47%, 23%);
+  color: var(--bright-blue);
   transition: color 0.3s ease;
 }
 
 .plan-box a:hover {
   text-decoration: none;
-  color: hsl(245, 75%, 52%);
+  color: #746cf1;
 }
 
 .proceed {
@@ -99,6 +106,18 @@ figure img {
   font-weight: 500;
   border-radius: 10px;
   box-shadow:2px 2px 7px 3px rgb(158, 158, 158);
+}
+
+
+/* cancel order button */
+a#cancel{
+  text-decoration: none;
+  color: var(--desaturated-blue);
+  font-weight: 600;
+}
+
+a#cancel:hover{
+  color: hsl(223, 47%, 23%);
 }
 
 /* media query styling here */

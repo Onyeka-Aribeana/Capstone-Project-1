@@ -87,6 +87,18 @@ figure img {
   color: hsl(245, 75%, 52%);
 }
 
+.proceed {
+  padding: 25px 0;
+}
+
+.proceed a {
+  text-decoration: none;
+  padding: 10px 50px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+}
 /* media query styling here */
 @media (max-width: 375px) {
   body {

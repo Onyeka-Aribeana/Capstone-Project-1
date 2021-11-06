@@ -100,7 +100,7 @@ figure img {
   border-radius: 10px;
 }
 .proceed.shadow{
-   box-shadow: 10px 10px 5px grey;
+   box-shadow: 10px 10px 5px pale blue;
 }
 /* media query styling here */
 @media (max-width: 375px) {

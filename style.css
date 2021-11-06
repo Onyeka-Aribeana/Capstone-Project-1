@@ -99,6 +99,9 @@ figure img {
   font-weight: 500;
   border-radius: 10px;
 }
+.proceed.shadow{
+   box-shadow: 10px 10px 5px grey;
+}
 /* media query styling here */
 @media (max-width: 375px) {
   body {

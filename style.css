@@ -32,6 +32,7 @@ main {
   background: #fff;
   width: 370px;
   border-radius: 10px;
+  box-shadow: 0 10px 10px -5px rgb(158, 158, 158);
 }
 
 figure img {
@@ -43,14 +44,18 @@ figure img {
 }
 
 #pricing-section {
-  padding: 30px 25px;
+  padding: 35px 25px;
   line-height: 1.45;
 }
 
-#pricing-section p.info{
-  margin: .8em 0;
+#pricing-section h1 {
+  color: var(--dark-blue);
+  font-weight: 900;
+}
+
+#pricing-section p.info {
+  margin: 0.8em 0;
   font-size: 16px;
-  
 }
 
 .plan-box {
@@ -60,6 +65,7 @@ figure img {
   padding: 15px 20px;
   align-items: center;
   justify-content: space-between;
+  margin: 20px 0 15px;
 }
 
 .plan-box-left {
@@ -73,9 +79,9 @@ figure img {
 }
 
 .plan-box-left div h3 {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 15px;
-  color: hsl(223, 47%, 23%);
+  color: var(--dark-blue);
 }
 
 .plan-box-left div p {
@@ -105,18 +111,21 @@ figure img {
   color: white;
   font-weight: 500;
   border-radius: 10px;
-  box-shadow:2px 2px 7px 3px rgb(158, 158, 158);
+  box-shadow: 0 10px 10px -5px rgb(158, 158, 158);
 }
 
+.proceed a:hover {
+  background-color: #746cf1;
+}
 
 /* cancel order button */
-a#cancel{
+#cancel {
   text-decoration: none;
   color: var(--desaturated-blue);
   font-weight: 600;
 }
 
-a#cancel:hover{
+#cancel:hover {
   color: hsl(223, 47%, 23%);
 }
 
